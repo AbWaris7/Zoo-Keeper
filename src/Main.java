@@ -9,7 +9,7 @@ public class Main {
         Map<Integer, String> habitats = AnimalData.getHabitats();
         try (Scanner scanner = new Scanner(System.in)) {
             while (true) {
-                System.out.println("Please :) enter the number of the habitat you would like to view:");
+                System.out.println("Please enter the number of the habitat you would like to view:");
                 String input = scanner.nextLine();
 
                 if ("exit".equalsIgnoreCase(input)) {
